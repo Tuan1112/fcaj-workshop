@@ -14,7 +14,7 @@ In large-scale Cloud environments, log data (VPC Flow Logs, CloudTrail) is massi
 * **AWS Serverless Data Pipeline**: 9 AWS services processing Big Data Logs behind the scenes without impacting main server performance.
 
 ### 2. Architecture Diagram
-![AWS Data Pipeline Architecture](/images/Workshop/Diagram.jpg)
+![AWS Data Pipeline Architecture](/images/2-Proposal/sodo.jpeg)
 
 ### 3. Role of 9 AWS Services in the Project
 

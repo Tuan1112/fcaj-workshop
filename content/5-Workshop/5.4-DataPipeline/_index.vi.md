@@ -86,4 +86,4 @@ exports.handler = async (event) => {
 };
 ```
 
-![Lambda Function](/images/Workshop/lambda.png)
+![Lambda Function](/images/Workshop/lamba.png)

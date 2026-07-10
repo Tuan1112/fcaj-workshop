@@ -99,11 +99,8 @@ frontend/src/
 
 Giao diện sử dụng TailwindCSS với Dark Theme tông màu tối (#030712), hiệu ứng Glassmorphism và micro-animation.
 
-*(Chèn ảnh giao diện Dashboard của bạn tại đây)*
-![Giao diện Dashboard](/images/Workshop/webapp_dashboard.png)
+![Giao diện Dashboard](/images/Workshop/dasb.png)
 
-*(Chèn ảnh giao diện Security Alerts)*
-![Giao diện Security Alerts](/images/Workshop/webapp_security.png)
+![Giao diện Security Alerts](/images/Workshop/sercu.png)
 
-*(Chèn ảnh giao diện Traffic Logs)*
-![Giao diện Traffic Logs](/images/Workshop/webapp_traffic.png)
+![Giao diện Traffic Logs](/images/Workshop/traff.png)
