@@ -5,55 +5,22 @@ weight: 1
 chapter: false
 pre: " <b> 1.8. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
-
 
 ### Mục tiêu tuần 8:
+* Bắt đầu module **Application Modernization**, tập trung vào series Serverless DevAx.
 
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
-
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-
+### Các công việc đã triển khai trong tuần này:
+| Thứ | Công việc                                                                  | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                                    |
+| --- | ------------------------------------------------------------------------------ | ------------ | --------------- | ---------------------------------------------------|
+| Thứ 2 | Chuyển đổi từ Monolith sang Microservices                                   | 08/06/2026   | 08/06/2026      | <https://000050.awsstudygroup.com>                |
+| Thứ 3 | CI/CD cho việc release ứng dụng                                             | 09/06/2026   | 09/06/2026      | <https://000051.awsstudygroup.com>                |
+| Thứ 4 | Xây dựng Microservices                                                      | 10/06/2026   | 10/06/2026      | <https://000052.awsstudygroup.com>                |
+| Thứ 5 | Kiến trúc Event-Driven                                                      | 11/06/2026   | 11/06/2026      | <https://000054.awsstudygroup.com>                |
+| Thứ 6 | Xác thực Single Page Application                                            | 12/06/2026   | 12/06/2026      | <https://000055.awsstudygroup.com>                |
 
 ### Kết quả đạt được tuần 8:
-
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Đã tạo và cấu hình AWS Free Tier account thành công.
-
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+* Hiểu quy trình và thách thức khi phân rã một ứng dụng monolithic.
+* Tự động hóa việc release microservice thông qua pipeline CI/CD.
+* Xây dựng các thành phần microservice độc lập giao tiếp qua API/event.
+* Áp dụng pattern event-driven để tách rời (decouple) các service.
+* Triển khai luồng xác thực cho Single Page Application (SPA).

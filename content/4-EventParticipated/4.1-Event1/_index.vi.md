@@ -6,120 +6,122 @@ chapter: false
 pre: " <b> 4.1. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
+# Bài thu hoạch: "Swinburne Cloud Mastery – AWS: Enterprise Cloud Architectures and Industry Application"
 
-# Bài thu hoạch “GenAI-powered App-DB Modernization workshop”
+## Danh sách diễn giả
 
-### Mục Đích Của Sự Kiện
+- **Mr. Nguyen Gia Hung** – Head of Solutions Architect in Vietnam & Cambodia, Amazon Web Services
+- **Mr. Khang Nguyen** – Solutions Architect, Cloud Kinetics
+- **Ms. Nhu Tran** – Account Manager, Amazon Web Services
+- **Mr. Vinh Banh** – Senior Data Engineer, Renova Cloud
 
-- Chia sẻ best practices trong thiết kế ứng dụng hiện đại
-- Giới thiệu phương pháp DDD và event-driven architecture
-- Hướng dẫn lựa chọn compute services phù hợp
-- Giới thiệu công cụ AI hỗ trợ development lifecycle
+## 1. Bối cảnh thị trường Cloud và cơ hội nghề nghiệp
 
-### Danh Sách Diễn Giả
+Phần chia sẻ của anh **Nguyen Gia Hung** tập trung vào xu hướng chuyển dịch mạnh mẽ từ hạ tầng truyền thống sang nền tảng điện toán đám mây.
 
-- **Jignesh Shah** - Director, Open Source Databases
-- **Erica Liu** - Sr. GTM Specialist, AppMod
-- **Fabrianne Effendi** - Assc. Specialist SA, Serverless Amazon Web Services
+Các lĩnh vực như ngân hàng, tài chính và bảo hiểm đang dần chuyển toàn bộ hệ thống quan trọng lên Cloud nhằm tăng khả năng mở rộng, đảm bảo tính sẵn sàng và tối ưu chi phí vận hành.
 
-### Nội Dung Nổi Bật
+Anh cũng chia sẻ rằng Việt Nam đang trở thành một **Talent Hub** của nhiều doanh nghiệp quốc tế. Nhiều tập đoàn lớn đặt trung tâm phát triển tại Việt Nam nên nhu cầu tuyển dụng nhân sự Cloud vẫn rất lớn.
 
-#### Đưa ra các ảnh hưởng tiêu cực của kiến trúc ứng dụng cũ
+Tuy nhiên, thị trường hiện nay đang xuất hiện nghịch lý:
 
-- Thời gian release sản phẩm lâu → Mất doanh thu/bỏ lỡ cơ hội
-- Hoạt động kém hiệu quả → Mất năng suất, tốn kém chi phí
-- Không tuân thủ các quy định về bảo mật → Mất an ninh, uy tín
+- Nhu cầu tuyển dụng Junior giảm.
+- Doanh nghiệp cần nhiều Senior hơn.
+- Sinh viên cần chủ động học hỏi và tận dụng AI để giải quyết các bài toán thực tế thay vì chỉ sử dụng AI để hoàn thành bài tập.
 
-#### Chuyển đổi sang kiến trúc ứng dụng mới - Microservice Architecture
+Một nội dung khá thú vị là tư duy kinh tế trong công nghệ.
 
-Chuyển đổi thành hệ thống modular – từng chức năng là một **dịch vụ độc lập** giao tiếp với nhau qua **sự kiện** với 3 trụ cột cốt lõi:
+Khi công nghệ giúp giảm chi phí triển khai phần mềm hoặc AI giúp tăng năng suất thì nhu cầu của doanh nghiệp không giảm mà còn tăng mạnh. Điều này mở ra rất nhiều cơ hội cho ngành Cloud Computing trong tương lai.
 
-- **Queue Management**: Xử lý tác vụ bất đồng bộ
-- **Caching Strategy:** Tối ưu performance
-- **Message Handling:** Giao tiếp linh hoạt giữa services
+Cuối phần trình bày, anh chia sẻ một lời khuyên về phát triển sự nghiệp:
 
-#### Domain-Driven Design (DDD)
+> "Hãy đối xử với sếp và khách hàng như người yêu."
 
-- **Phương pháp 4 bước**: Xác định domain events → sắp xếp timeline → identify actors → xác định bounded contexts
-- **Case study bookstore**: Minh họa cách áp dụng DDD thực tế
-- **Context mapping**: 7 patterns tích hợp bounded contexts
+Thông điệp muốn nhấn mạnh tầm quan trọng của giao tiếp, sự thấu hiểu và xây dựng mối quan hệ lâu dài trong môi trường doanh nghiệp.
 
-#### Event-Driven Architecture
+---
 
-- **3 patterns tích hợp**: Publish/Subscribe, Point-to-point, Streaming
-- **Lợi ích**: Loose coupling, scalability, resilience
-- **So sánh sync vs async**: Hiểu rõ trade-offs (sự đánh đổi)
+## 2. Định hướng nghề nghiệp Data Engineer
 
-#### Compute Evolution
+Anh **Vinh Banh** chia sẻ về hành trình làm việc tại startup, doanh nghiệp lớn và công ty fintech.
 
-- **Shared Responsibility Model**: Từ EC2 → ECS → Fargate → Lambda
-- **Serverless benefits**: No server management, auto-scaling, pay-for-value
-- **Functions vs Containers**: Criteria lựa chọn phù hợp
+Theo anh, để theo đuổi ngành Data Engineering cần xây dựng nền tảng vững chắc ở các lĩnh vực:
 
-#### Amazon Q Developer
+- Cơ sở dữ liệu
+- Ngôn ngữ lập trình
+- Cấu trúc dữ liệu và giải thuật
+- Cơ sở dữ liệu phân tán
+- API
 
-- **SDLC automation**: Từ planning đến maintenance
-- **Code transformation**: Java upgrade, .NET modernization
-- **AWS Transform agents**: VMware, Mainframe, .NET migration
+Anh cũng chỉ ra sự khác biệt giữa môi trường học tập và môi trường doanh nghiệp.
 
-### Những Gì Học Được
+Ở trường đại học, mục tiêu chủ yếu là hoàn thành bài tập. Trong doanh nghiệp, kỹ sư phải chịu trách nhiệm hoàn toàn về chất lượng của sản phẩm.
 
-#### Tư Duy Thiết Kế
+Ngoài kỹ năng lập trình, Data Engineer còn cần có tư duy **System Design**, biết cách phối hợp nhiều dịch vụ khác nhau để xây dựng một hệ thống hoàn chỉnh.
 
-- **Business-first approach**: Luôn bắt đầu từ business domain, không phải technology
-- **Ubiquitous language**: Importance của common vocabulary giữa business và tech teams
-- **Bounded contexts**: Cách identify và manage complexity trong large systems
+Bên cạnh đó, anh nhấn mạnh tầm quan trọng của **Business Mindset**. Một kỹ sư không chỉ hiểu công nghệ mà còn phải hiểu quy trình kinh doanh để tạo ra giải pháp mang lại giá trị thực tế cho doanh nghiệp.
 
-#### Kiến Trúc Kỹ Thuật
+---
 
-- **Event storming technique**: Phương pháp thực tế để mô hình hóa quy trình kinh doanh
-- Sử dụng **Event-driven communication** thay vì synchronous calls
-- **Integration patterns**: Hiểu khi nào dùng sync, async, pub/sub, streaming
-- **Compute spectrum**: Criteria chọn từ VM → containers → serverless
+## 3. Vượt qua nỗi sợ và kỹ năng giao tiếp
 
-#### Chiến Lược Hiện Đại Hóa
+Phần chia sẻ của **Ms. Nhu Tran** tập trung vào các rào cản tâm lý mà nhiều sinh viên gặp phải khi bước vào môi trường làm việc.
 
-- **Phased approach**: Không rush, phải có roadmap rõ ràng
-- **7Rs framework**: Nhiều con đường khác nhau tùy thuộc vào đặc điểm của mỗi ứng dụng
-- **ROI measurement**: Cost reduction + business agility
+Các nỗi sợ phổ biến gồm:
 
-### Ứng Dụng Vào Công Việc
+- Sợ mắc sai lầm.
+- Sợ bị đánh giá.
+- Sợ làm thất vọng gia đình.
 
-- **Áp dụng DDD** cho project hiện tại: Event storming sessions với business team
-- **Refactor microservices**: Sử dụng bounded contexts để identify service boundaries
-- **Implement event-driven patterns**: Thay thế một số sync calls bằng async messaging
-- **Serverless adoption**: Pilot AWS Lambda cho một số use cases phù hợp
-- **Try Amazon Q Developer**: Integrate vào development workflow để boost productivity
+Theo chị, việc nhận diện rõ nguyên nhân của nỗi sợ sẽ giúp mỗi người từng bước vượt qua giới hạn của bản thân.
 
-### Trải nghiệm trong event
+Đối với kỹ năng giao tiếp nơi công sở, chị khuyến khích sinh viên:
 
-Tham gia workshop **“GenAI-powered App-DB Modernization”** là một trải nghiệm rất bổ ích, giúp tôi có cái nhìn toàn diện về cách hiện đại hóa ứng dụng và cơ sở dữ liệu bằng các phương pháp và công cụ hiện đại. Một số trải nghiệm nổi bật:
+- Chủ động chào hỏi.
+- Bắt đầu bằng những cuộc trò chuyện ngắn.
+- Mạnh dạn trao đổi với cấp trên.
+- Luôn thể hiện tinh thần sẵn sàng học hỏi và hỗ trợ.
 
-#### Học hỏi từ các diễn giả có chuyên môn cao
-- Các diễn giả đến từ AWS và các tổ chức công nghệ lớn đã chia sẻ **best practices** trong thiết kế ứng dụng hiện đại.
-- Qua các case study thực tế, tôi hiểu rõ hơn cách áp dụng **Domain-Driven Design (DDD)** và **Event-Driven Architecture** vào các project lớn.
+Qua đó, khoảng cách giữa nhân viên và quản lý sẽ dần được rút ngắn.
 
-#### Trải nghiệm kỹ thuật thực tế
-- Tham gia các phiên trình bày về **event storming** giúp tôi hình dung cách **mô hình hóa quy trình kinh doanh** thành các domain events.
-- Học cách **phân tách microservices** và xác định **bounded contexts** để quản lý sự phức tạp của hệ thống lớn.
-- Hiểu rõ trade-offs giữa **synchronous và asynchronous communication** cũng như các pattern tích hợp như **pub/sub, point-to-point, streaming**.
+---
 
-#### Ứng dụng công cụ hiện đại
-- Trực tiếp tìm hiểu về **Amazon Q Developer**, công cụ AI hỗ trợ SDLC từ lập kế hoạch đến maintenance.
-- Học cách **tự động hóa code transformation** và pilot serverless với **AWS Lambda**, từ đó nâng cao năng suất phát triển.
+## 4. Góc nhìn của cựu sinh viên
 
-#### Kết nối và trao đổi
-- Workshop tạo cơ hội trao đổi trực tiếp với các chuyên gia, đồng nghiệp và team business, giúp **nâng cao ngôn ngữ chung (ubiquitous language)** giữa business và tech.
-- Qua các ví dụ thực tế, tôi nhận ra tầm quan trọng của **business-first approach**, luôn bắt đầu từ nhu cầu kinh doanh thay vì chỉ tập trung vào công nghệ.
+Ở phần cuối chương trình, anh **Ma Hoang Khang** chia sẻ kinh nghiệm sử dụng AI trong học tập.
 
-#### Bài học rút ra
-- Việc áp dụng DDD và event-driven patterns giúp giảm **coupling**, tăng **scalability** và **resilience** cho hệ thống.
-- Chiến lược hiện đại hóa cần **phased approach** và đo lường **ROI**, không nên vội vàng chuyển đổi toàn bộ hệ thống.
-- Các công cụ AI như Amazon Q Developer có thể **boost productivity** nếu được tích hợp vào workflow phát triển hiện tại.
+Theo anh, AI nên được xem là công cụ hỗ trợ tư duy thay vì thay thế hoàn toàn quá trình học.
 
-#### Một số hình ảnh khi tham gia sự kiện
-* Thêm các hình ảnh của các bạn tại đây
-> Tổng thể, sự kiện không chỉ cung cấp kiến thức kỹ thuật mà còn giúp tôi thay đổi cách tư duy về thiết kế ứng dụng, hiện đại hóa hệ thống và phối hợp hiệu quả hơn giữa các team.
+Sinh viên nên:
+
+- Sử dụng Prompt Engineering để đặt câu hỏi hiệu quả.
+- Dùng AI để kiểm chứng kiến thức.
+- Luôn tự xác thực lại kết quả bằng nền tảng kiến thức của bản thân.
+
+Anh cũng khuyến khích mọi người giữ tinh thần **Stay Hungry**, luôn chủ động học hỏi và thực hiện thêm các dự án ngoài yêu cầu để nâng cao năng lực trước khi tốt nghiệp.
+
+---
+
+## Thông điệp tổng kết
+
+Buổi hội thảo khép lại bằng nội dung về các yếu tố quan trọng khi đánh giá một nhân sự.
+
+Thứ tự ưu tiên gồm:
+
+1. Thái độ.
+2. Trình độ.
+3. Trải nghiệm thực tế.
+4. Kinh nghiệm.
+5. Tố chất cá nhân.
+
+Qua sự kiện, tôi nhận thấy rằng kiến thức chuyên môn là điều kiện cần, nhưng thái độ học hỏi, khả năng thích nghi và tinh thần chủ động mới là những yếu tố tạo nên sự khác biệt trong quá trình phát triển nghề nghiệp.
+
+## Cảm nhận sau sự kiện
+
+Đây là một buổi chia sẻ mang lại cho tôi nhiều góc nhìn thực tế về ngành Cloud Computing cũng như môi trường làm việc trong doanh nghiệp. Những chia sẻ từ các chuyên gia AWS và các diễn giả có nhiều năm kinh nghiệm giúp tôi hiểu rõ hơn về yêu cầu của thị trường lao động, tầm quan trọng của kiến thức nền tảng, tư duy hệ thống và kỹ năng giao tiếp. Sau sự kiện, tôi có thêm động lực để tiếp tục học tập, trau dồi kỹ năng và định hướng rõ ràng hơn cho con đường phát triển trong lĩnh vực Cloud Computing.
+
+## Một vài hình ảnh của sự kiện
+
+![Hình ảnh sự kiện 1](/images/2-Event/sukien1.jpg)
+
+![Hình ảnh sự kiện 2](/images/2-Event/sukien2.jpg)

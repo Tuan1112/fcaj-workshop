@@ -6,121 +6,124 @@ chapter: false
 pre: " <b> 4.1. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy it verbatim** into your report, including this warning.
-{{% /notice %}}
+# Reflection Report: "Swinburne Cloud Mastery – AWS: Enterprise Cloud Architectures and Industry Application"
 
-# Summary Report: “GenAI-powered App-DB Modernization workshop”
+## Speakers
 
-### Event Objectives
+- **Mr. Nguyen Gia Hung** – Head of Solutions Architect in Vietnam & Cambodia, Amazon Web Services
+- **Mr. Khang Nguyen** – Solutions Architect, Cloud Kinetics
+- **Ms. Nhu Tran** – Account Manager, Amazon Web Services
+- **Mr. Vinh Banh** – Senior Data Engineer, Renova Cloud
 
-- Share best practices in modern application design
-- Introduce Domain-Driven Design (DDD) and event-driven architecture
-- Provide guidance on selecting the right compute services
-- Present AI tools to support the development lifecycle
+## 1. Cloud Market Trends and Career Opportunities
 
-### Speakers
+Mr. **Nguyen Gia Hung** shared insights into the rapid transition from traditional IT infrastructure to cloud computing.
 
-- **Jignesh Shah** – Director, Open Source Databases
-- **Erica Liu** – Sr. GTM Specialist, AppMod
-- **Fabrianne Effendi** – Assc. Specialist SA, Serverless Amazon Web Services
+Industries such as banking, finance, and insurance are increasingly migrating their core systems to the cloud to improve scalability, availability, and operational efficiency.
 
-### Key Highlights
+He also highlighted that Vietnam is becoming an important **Talent Hub** for many international companies. As more global organizations establish technology centers in Vietnam, the demand for cloud professionals continues to grow.
 
-#### Identifying the drawbacks of legacy application architecture
+However, the current job market presents an interesting challenge:
 
-- Long product release cycles → Lost revenue/missed opportunities  
-- Inefficient operations → Reduced productivity, higher costs  
-- Non-compliance with security regulations → Security breaches, loss of reputation  
+- The demand for junior engineers is decreasing.
+- Companies are looking for more senior-level professionals.
+- Students are encouraged to leverage AI to solve real-world problems rather than using it only to complete assignments.
 
-#### Transitioning to modern application architecture – Microservices
+Another interesting topic was the economic impact of technology.
 
-Migrating to a modular system — each function is an **independent service** communicating via **events**, built on three core pillars:
+As technologies such as AI and low-code platforms reduce development costs and increase productivity, businesses do not reduce their software investments. Instead, they build more applications and digital services, creating even greater opportunities for the cloud computing industry.
 
-- **Queue Management**: Handle asynchronous tasks  
-- **Caching Strategy**: Optimize performance  
-- **Message Handling**: Flexible inter-service communication  
+At the end of his presentation, Mr. Hung shared a memorable piece of career advice:
 
-#### Domain-Driven Design (DDD)
+> "Treat your manager and your customers the way you would treat someone you truly care about."
 
-- **Four-step method**: Identify domain events → arrange timeline → identify actors → define bounded contexts  
-- **Bookstore case study**: Demonstrates real-world DDD application  
-- **Context mapping**: 7 patterns for integrating bounded contexts  
+This emphasizes the importance of communication, empathy, and building long-term professional relationships.
 
-#### Event-Driven Architecture
+---
 
-- **3 integration patterns**: Publish/Subscribe, Point-to-point, Streaming  
-- **Benefits**: Loose coupling, scalability, resilience  
-- **Sync vs async comparison**: Understanding the trade-offs  
+## 2. Career Orientation for Data Engineers
 
-#### Compute Evolution
+Mr. **Vinh Banh** shared his career journey across startups, large enterprises, and fintech companies.
 
-- **Shared Responsibility Model**: EC2 → ECS → Fargate → Lambda  
-- **Serverless benefits**: No server management, auto-scaling, pay-for-value  
-- **Functions vs Containers**: Criteria for appropriate choice  
+According to him, anyone pursuing a career in Data Engineering should build a strong foundation in the following areas:
 
-#### Amazon Q Developer
+- Databases
+- Programming Languages
+- Data Structures and Algorithms
+- Distributed Databases
+- APIs
 
-- **SDLC automation**: From planning to maintenance  
-- **Code transformation**: Java upgrade, .NET modernization  
-- **AWS Transform agents**: VMware, Mainframe, .NET migration  
+He also explained the difference between university and the workplace.
 
-### Key Takeaways
+At university, students mainly focus on completing assignments. In a professional environment, engineers are fully responsible for the quality and reliability of the products they develop.
 
-#### Design Mindset
+Beyond programming skills, Data Engineers should also develop **System Design** thinking, understanding how multiple services work together to build scalable and reliable systems.
 
-- **Business-first approach**: Always start from the business domain, not the technology  
-- **Ubiquitous language**: Importance of a shared vocabulary between business and tech teams  
-- **Bounded contexts**: Identifying and managing complexity in large systems  
+In addition, he emphasized the importance of having a **Business Mindset**. Engineers should understand business processes and customer needs so they can deliver practical and valuable solutions instead of focusing only on technical implementation.
 
-#### Technical Architecture
+---
 
-- **Event storming technique**: Practical method for modeling business processes  
-- Use **event-driven communication** instead of synchronous calls  
-- **Integration patterns**: When to use sync, async, pub/sub, streaming  
-- **Compute spectrum**: Criteria for choosing between VM, containers, and serverless  
+## 3. Overcoming Fear and Workplace Communication
 
-#### Modernization Strategy
+Ms. **Nhu Tran** focused on the psychological barriers that many students face when entering the workplace.
 
-- **Phased approach**: No rushing — follow a clear roadmap  
-- **7Rs framework**: Multiple modernization paths depending on the application  
-- **ROI measurement**: Cost reduction + business agility  
+Common concerns include:
 
-### Applying to Work
+- Fear of making mistakes.
+- Fear of being judged.
+- Fear of disappointing family members.
 
-- **Apply DDD** to current projects: Event storming sessions with business teams  
-- **Refactor microservices**: Use bounded contexts to define service boundaries  
-- **Implement event-driven patterns**: Replace some sync calls with async messaging  
-- **Adopt serverless**: Pilot AWS Lambda for suitable use cases  
-- **Try Amazon Q Developer**: Integrate into the dev workflow to boost productivity  
+She explained that identifying the root cause of these fears is the first step toward overcoming them.
 
-### Event Experience
+Regarding workplace communication, she encouraged students to:
 
-Attending the **“GenAI-powered App-DB Modernization”** workshop was extremely valuable, giving me a comprehensive view of modernizing applications and databases using advanced methods and tools. Key experiences included:
+- Greet colleagues proactively.
+- Start conversations through small talk.
+- Communicate confidently with managers.
+- Demonstrate a willingness to learn and support others.
 
-#### Learning from highly skilled speakers
-- Experts from AWS and major tech organizations shared **best practices** in modern application design.  
-- Through real-world case studies, I gained a deeper understanding of applying **DDD** and **Event-Driven Architecture** to large projects.  
+These simple habits can gradually build confidence and strengthen professional relationships.
 
-#### Hands-on technical exposure
-- Participating in **event storming** sessions helped me visualize how to **model business processes** into domain events.  
-- Learned how to **split microservices** and define **bounded contexts** to manage large-system complexity.  
-- Understood trade-offs between **synchronous and asynchronous communication** and integration patterns like **pub/sub, point-to-point, streaming**.  
+---
 
-#### Leveraging modern tools
-- Explored **Amazon Q Developer**, an AI tool for SDLC support from planning to maintenance.  
-- Learned to **automate code transformation** and pilot serverless with **AWS Lambda** to improve productivity.  
+## 4. Perspective from an Alumnus
 
-#### Networking and discussions
-- The workshop offered opportunities to exchange ideas with experts, peers, and business teams, enhancing the **ubiquitous language** between business and tech.  
-- Real-world examples reinforced the importance of the **business-first approach** rather than focusing solely on technology.  
+During the final session, **Mr. Ma Hoang Khang** shared his experience using AI as a learning tool.
 
-#### Lessons learned
-- Applying DDD and event-driven patterns reduces **coupling** while improving **scalability** and **resilience**.  
-- Modernization requires a **phased approach** with **ROI measurement**; rushing the process can be risky.  
-- AI tools like Amazon Q Developer can significantly **boost productivity** when integrated into the current workflow.  
+He encouraged students to use AI as a tool for critical thinking rather than allowing it to replace the learning process.
 
-#### Some event photos
-*Add your event photos here*  
+Students should:
 
-> Overall, the event not only provided technical knowledge but also helped me reshape my thinking about application design, system modernization, and cross-team collaboration.
+- Practice effective Prompt Engineering.
+- Use AI to validate their understanding.
+- Verify AI-generated answers using their own fundamental knowledge.
+
+He also encouraged everyone to maintain a **Stay Hungry** mindset by continuously learning and taking on additional projects beyond academic requirements to strengthen their professional portfolio.
+
+---
+
+## Key Takeaways
+
+The event concluded with a discussion on the key factors organizations consider when evaluating employees.
+
+The priority order is:
+
+1. Attitude
+2. Knowledge and Skills
+3. Practical Experience
+4. Professional Experience
+5. Personal Aptitude
+
+This session reminded me that while technical knowledge is essential, a positive attitude, adaptability, and a proactive learning mindset are what truly distinguish outstanding professionals.
+
+## Personal Reflection
+
+This seminar provided valuable insights into the cloud computing industry and today's professional working environment. Listening to experienced AWS experts and industry professionals helped me better understand current market expectations, the importance of strong technical foundations, system design thinking, and effective communication skills.
+
+Overall, the event inspired me to continue improving my technical knowledge, develop practical skills, and prepare myself for a future career in Cloud Computing.
+
+## Event Photos
+
+![Event Photo 1](/images/2-Event/sukien1.jpg)
+
+![Event Photo 2](/images/2-Event/sukien2.jpg)
