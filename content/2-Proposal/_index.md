@@ -29,7 +29,7 @@ The Hybrid architecture optimizes costs to the maximum. MongoDB stores lightweig
 ### 3. Solution Architecture
 The project is a perfect intersection of Software Engineering and Cloud Architecture.
 
-![AWS Data Pipeline Architecture](/images/2-Proposal/sodo.jpeg)
+![AWS Data Pipeline Architecture](/images/2-Proposal/sodo1.png)
 
 *AWS Data Flow (Data Engine)*
 - **Amazon S3**: Stores Log data (Data Lake).

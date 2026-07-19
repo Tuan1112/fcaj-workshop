@@ -14,7 +14,7 @@ Trong các môi trường Cloud quy mô lớn, dữ liệu log (VPC Flow Logs, C
 * **AWS Serverless Data Pipeline**: 9 dịch vụ AWS xử lý Big Data Log ngầm phía sau, không ảnh hưởng hiệu suất máy chủ chính.
 
 ### 2. Sơ đồ kiến trúc (Architecture Diagram)
-![AWS Data Pipeline Architecture](/images/2-Proposal/sodo.jpeg)
+![AWS Data Pipeline Architecture](/images/2-Proposal/sodo1.png)
 
 ### 3. Vai trò của 9 dịch vụ AWS trong dự án
 
