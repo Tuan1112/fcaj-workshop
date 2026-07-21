@@ -22,4 +22,4 @@ Project objective: Demonstrate the ability to design a Hybrid Architecture where
 5. [Analysis & Security Monitoring](5.5-Analytics/)
 6. [Integrating AWS into the Web App](5.6-WebIntegration/)
 7. [Resource Clean-up](5.7-Cleanup/)
-8. [Demo](/5.8-source-code-demo/)
+8. [Demo](5.8-source-code-demo/)
