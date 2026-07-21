@@ -1,7 +1,7 @@
 ---
 title: "Worklog Tuần 2"
 date: 2024-01-01
-weight: 1
+weight: 2
 chapter: false
 pre: " <b> 1.2. </b> "
 ---
@@ -10,13 +10,13 @@ pre: " <b> 1.2. </b> "
 * Hoàn thành các dịch vụ cốt lõi còn lại của module **Explore AWS Services**: lưu trữ web tĩnh, cơ sở dữ liệu, scaling và giám sát.
 
 ### Các công việc đã triển khai trong tuần này:
-| Thứ | Công việc                                                                                | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                                    |
-| --- | ----------------------------------------------------------------------------------------- | ------------ | --------------- | ---------------------------------------------------|
-| Thứ 2 | Lưu trữ Website Tĩnh với **Amazon S3**                                                  | 27/04/2026   | 27/04/2026      | <https://000057.awsstudygroup.com>                |
-| Thứ 3 | Kiến thức cơ bản về Database với **Amazon RDS**                                          | 28/04/2026   | 28/04/2026      | <https://000005.awsstudygroup.com>                |
-| Thứ 4 | Điện toán đơn giản hóa với **Amazon Lightsail**                                          | 29/04/2026   | 29/04/2026      | <https://000045.awsstudygroup.com>                |
-| Thứ 5 | Mở rộng ứng dụng với **EC2 Auto Scaling**                                                | 30/04/2026   | 30/04/2026      | <https://000006.awsstudygroup.com>                |
-| Thứ 6 | Giám sát với **Amazon CloudWatch**                                                       | 01/05/2026   | 01/05/2026      | <https://000008.awsstudygroup.com>                |
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+| --- | --- | --- | --- | --- |
+| Thứ 2 | - Kích hoạt Static Website Hosting trên **Amazon S3** <br> - Upload file website và cấu hình bucket policy cho phép public read <br> - Kiểm thử website qua endpoint URL của S3 | 27/04/2026 | 27/04/2026 | <https://000057.awsstudygroup.com> |
+| Thứ 3 | - Tìm hiểu kiến thức nền tảng của **Amazon RDS**: các engine hỗ trợ, instance class <br> - Tạo RDS instance với Multi-AZ được kích hoạt <br> - Cấu hình automated backup và thời gian lưu trữ (retention) | 28/04/2026 | 28/04/2026 | <https://000005.awsstudygroup.com> |
+| Thứ 4 | - Tìm hiểu **Amazon Lightsail**: đơn giản hóa việc khởi tạo VM, giá theo gói <br> - Khởi tạo một Lightsail instance và so sánh với EC2 thông thường <br> - Cấu hình firewall tích hợp sẵn và static IP | 29/04/2026 | 29/04/2026 | <https://000045.awsstudygroup.com> |
+| Thứ 5 | - Tạo launch template cho **EC2 Auto Scaling** <br> - Cấu hình chính sách scaling dựa trên CPU utilization <br> - Kiểm thử hành vi scale-out/scale-in với tải giả lập | 30/04/2026 | 30/04/2026 | <https://000006.awsstudygroup.com> |
+| Thứ 6 | - Thiết lập dashboard tùy chỉnh trên **Amazon CloudWatch** <br> - Tạo alarm cho các metric CPU, memory, network <br> - Xem CloudWatch Logs để phục vụ troubleshooting | 01/05/2026 | 01/05/2026 | <https://000008.awsstudygroup.com> |
 
 ### Kết quả đạt được tuần 2:
 * Lưu trữ thành công một website tĩnh trực tiếp từ S3 bucket mà không cần web server.
